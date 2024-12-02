@@ -6,7 +6,7 @@
 
 - [安装](#安装) 🛠️
 - [功能](#功能) ✨
-  - [highLight](#highLight 📌) 📌
+  - [highLight](#highLight) 📌
   -- [选项](#选项) ⚙️
   - [cancelAllHighLight](#cancelallhighlight) 📌
   - [cancelNameHighLight](#cancelnamehighlight) 📌
@@ -20,7 +20,7 @@ npm install highlighttext
 
 ## 功能 
 
-### highLight 📌
+### highLight
 ```js
 `highLight(dom: HTMLElement, str: string, options: options)`
 ```
