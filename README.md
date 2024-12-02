@@ -2,6 +2,10 @@
 
 这是一个用于高亮文本的 JavaScript 工具，也就意味着在Vue,React这样的现代框架也能使用。该工具可以在指定的 DOM 元素中查找并高亮显示指定的文本，支持自定义高亮效果。
 
+非常轻量，只需几行代码就能实现下面的高亮效果
+
+![image](https://github.com/user-attachments/assets/35e4d562-0242-4263-b3e1-26357f31dbc3)
+
 ## 安装  🛠️
 
 ```js
