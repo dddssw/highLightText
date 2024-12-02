@@ -20,8 +20,10 @@ npm install highlighttext
 
 ## 功能 
 
-### `highLight(dom: HTMLElement, str: string, options: options)` 📌
-
+### highLight 📌
+```js
+`highLight(dom: HTMLElement, str: string, options: options)`
+```
 在指定的 DOM 元素中高亮指定的文本字符串。此函数使用 CSS 自定义高亮 API 将文本匹配区域高亮显示。
 
 ### 参数：
