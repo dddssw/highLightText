@@ -12,7 +12,7 @@
   - [cancelNameHighLight](#cancelNameHighLight) 📌
 - [许可证](#许可证) 📜
 
-## 安装
+## 安装 🛠️
 
 ```js
 npm install highlighttext
@@ -86,6 +86,6 @@ import { cancelNameHighLight } from 'highlighttext';
 // 取消指定名称的高亮
 cancelNameHighLight('js-highlight');
 ```
-## 许可证
+## 许可证 
 此项目使用 MIT 许可证 
 
