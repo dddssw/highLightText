@@ -2,25 +2,15 @@
 
 这是一个用于高亮文本的 JavaScript 工具，也就意味着在Vue,React这样的现代框架也能使用。该工具可以在指定的 DOM 元素中查找并高亮显示指定的文本，支持自定义高亮效果。
 
-## 目录
-
-- [安装](#安装) 🛠️
-- [功能](#功能) ✨
-  - [highLight](#highLight) 📌
-  -- [选项](#选项) ⚙️
-  - [cancelAllHighLight](#cancelAllHighLight) 📌
-  - [cancelNameHighLight](#cancelNameHighLight) 📌
-- [许可证](#许可证) 📜
-
-## 安装 🛠️
+## 安装  🛠️
 
 ```js
 npm install highlighttext
 ```
 
-## 功能 
+## 功能 ✨
 
-### highLight
+### highLight 📌
 ```js
 `highLight(dom: HTMLElement, str: string, options: options)`
 ```
@@ -32,7 +22,7 @@ npm install highlighttext
 - **str (string)**: 需要高亮的文本字符串。此函数会查找所有匹配该文本的部分进行高亮。
 - **options (object)**: 高亮配置项，包含以下参数：
 
-  #### 选项
+  #### 选项 ⚙️
 
   - **isCaseSensitive (boolean, 默认值: `false`)**: 是否区分大小写。如果为 `false`，搜索时会忽略大小写。
   - **cssName (string, 默认值: `"default"`)**: 用于标识该高亮的名称。可以通过此名称来管理不同的高亮效果。
@@ -59,7 +49,7 @@ highLight(element, 'JavaScript', {
 }
 ```
 
-### cancelAllHighLight
+### cancelAllHighLight 📌
 取消所有通过 `highLight` 函数应用的高亮效果。
 
 #### 示例：
@@ -70,7 +60,7 @@ import { cancelAllHighLight } from 'highlighttext';
 cancelAllHighLight();
 ```
 
-### cancelNameHighLight 
+### cancelNameHighLight 📌
 ```js
 `cancelNameHighLight(cssName: string)`
 ```
@@ -86,6 +76,6 @@ import { cancelNameHighLight } from 'highlighttext';
 // 取消指定名称的高亮
 cancelNameHighLight('js-highlight');
 ```
-## 许可证 
+## 许可证 📜
 此项目使用 MIT 许可证 
 
