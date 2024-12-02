@@ -8,7 +8,7 @@
 - [功能](#功能) ✨
   - [highLight](#highLight) 📌
   -- [选项](#选项) ⚙️
-  - [cancelAllHighLight](#cancelAllHighLight()) 📌
+  - [cancelAllHighLight](#cancelAllHighLight) 📌
   - [cancelNameHighLight](#cancelNameHighLight) 📌
 - [许可证](#许可证) 📜
 
@@ -38,7 +38,7 @@ npm install highlighttext
   - **cssName (string, 默认值: `"default"`)**: 用于标识该高亮的名称。可以通过此名称来管理不同的高亮效果。
   - **ignoreText (string[], 默认值: `[]`)**: 一个字符串数组，指定在搜索过程中要忽略的文本。可以避免某些不需要高亮的文本被匹配。
 
-### 示例：
+#### 示例：
 
 ```javascript
 import { highLight } from 'highlighttext';
@@ -59,7 +59,7 @@ highLight(element, 'JavaScript', {
 }
 ```
 
-### cancelAllHighLight()
+### cancelAllHighLight
 取消所有通过 `highLight` 函数应用的高亮效果。
 
 #### 示例：
