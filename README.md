@@ -12,7 +12,7 @@
   - [cancelNameHighLight](#cancelnamehighlight) 🗑️
 - [许可证](#许可证) 📜
 
-## 安装 🛠️
+## 安装
 
 ```js
 npm install highlighttext
