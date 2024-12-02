@@ -4,12 +4,12 @@
 
 ## 目录
 
-- [安装](#安装)
-- [功能](#功能)
-  - [highLight](#highlight-1) 📌
+- [安装](#安装) 🛠️
+- [功能](#功能) ✨
+  - [highLight](#`highLight(dom: HTMLElement, str: string, options: options)` 📌) 📌
   -- [选项](#选项) ⚙️
-  - [cancelAllHighLight](#cancelallhighlight) ❌
-  - [cancelNameHighLight](#cancelnamehighlight) 🗑️
+  - [cancelAllHighLight](#cancelallhighlight) 📌
+  - [cancelNameHighLight](#cancelnamehighlight) 📌
 - [许可证](#许可证) 📜
 
 ## 安装
@@ -18,7 +18,7 @@
 npm install highlighttext
 ```
 
-## 功能 ✨
+## 功能 
 
 ### `highLight(dom: HTMLElement, str: string, options: options)` 📌
 
