@@ -8,8 +8,8 @@
 - [功能](#功能) ✨
   - [highLight](#highLight) 📌
   -- [选项](#选项) ⚙️
-  - [cancelAllHighLight](#cancelallhighlight) 📌
-  - [cancelNameHighLight](#cancelnamehighlight) 📌
+  - [cancelAllHighLight](#cancelAllHighLight()) 📌
+  - [cancelNameHighLight](#cancelNameHighLight) 📌
 - [许可证](#许可证) 📜
 
 ## 安装
@@ -59,7 +59,7 @@ highLight(element, 'JavaScript', {
 }
 ```
 
-### `cancelAllHighLight()` 📌
+### cancelAllHighLight()
 取消所有通过 `highLight` 函数应用的高亮效果。
 
 #### 示例：
@@ -70,7 +70,10 @@ import { cancelAllHighLight } from 'highlighttext';
 cancelAllHighLight();
 ```
 
-### `cancelNameHighLight(cssName: string)` 📌
+### cancelNameHighLight 
+```js
+`cancelNameHighLight(cssName: string)`
+```
 取消指定 `cssName` 名称的高亮效果。
 
 #### 参数：
