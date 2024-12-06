@@ -9,7 +9,7 @@
 ## 安装  🛠️
 
 ```js
-npm install highlighttext
+npm i text-lighter
 ```
 
 ## 功能 ✨
