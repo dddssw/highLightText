@@ -35,7 +35,7 @@ npm i text-lighter
 #### 示例：
 
 ```javascript
-import { highLight } from 'highlighttext';
+import { highLight } from 'text-lighter';
 
 // 获取 DOM 元素
 const element = document.getElementById('content');
@@ -58,7 +58,7 @@ highLight(element, 'JavaScript', {
 
 #### 示例：
 ```javascript
-import { cancelAllHighLight } from 'highlighttext';
+import { cancelAllHighLight } from 'text-lighter';
 
 // 取消所有高亮
 cancelAllHighLight();
@@ -75,7 +75,7 @@ cancelAllHighLight();
 
 #### 示例：
 ```javascript
-import { cancelNameHighLight } from 'highlighttext';
+import { cancelNameHighLight } from 'text-lighter';
 
 // 取消指定名称的高亮
 cancelNameHighLight('js-highlight');
